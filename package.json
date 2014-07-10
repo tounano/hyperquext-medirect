@@ -1,0 +1,31 @@
+{
+  "name": "hyperquext-medirect",
+  "version": "0.0.1",
+  "main": "./hq-metaredirects.js",
+  "description": "Follow Meta Refresh redirects on Hyperquext requests.",
+  "homepage": "https://github.com/tounano/hyperquext-metaredirects/",
+  "author": "ClickHere <js@clickhere.co.il>",
+  "keywords": [
+    "request",
+    "hyperquext",
+    "redirects"
+  ],
+  "licenses": {
+    "type": "The MIT License",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tounano/hyperquext-gzip"
+  },
+  "engines": {
+    "node": ">=0.6.11 <=0.7.0 || >=0.7.3"
+  },
+  "dependencies": {
+    "hyperquext": "latest",
+    "through": "latest",
+    "underscore": "latest",
+    "xpath": "latest",
+    "xmldom": "latest"
+  }
+}
