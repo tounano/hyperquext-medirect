@@ -5,7 +5,7 @@ var xpath = require('xpath')
   , dom = require('xmldom').DOMParser;
 
 module.exports = function hyperquextMeDirect(hyperquext) {
-  var expression = /[-a-zA-Z0-9@:%_\+.~#?&//]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/gi;
+  var expression = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/gi;
   var regex = new RegExp(expression);
 
   return function(uri, opts, cb) {
