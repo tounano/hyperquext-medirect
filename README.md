@@ -12,7 +12,7 @@ Decorating Hyperquext:
 var request = hyperquextMeDirect(hyperquext)
 ```
 
-From now on you can specify in options `{maxRedirects: true}` and you're set.
+From now on you can specify in options `{maxRedirects: 5}` and you're set.
 
 ## install
 
