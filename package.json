@@ -1,6 +1,6 @@
 {
   "name": "hyperquext-medirect",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "main": "./hq-metaredirects.js",
   "description": "Follow Meta Refresh redirects on Hyperquext requests.",
   "homepage": "https://github.com/tounano/hyperquext-metaredirects/",
@@ -23,9 +23,6 @@
   },
   "dependencies": {
     "hyperquext": "latest",
-    "through": "latest",
-    "underscore": "latest",
-    "xpath": "latest",
-    "xmldom": "latest"
+    "hyperquext-cheerio": "latest"
   }
 }
