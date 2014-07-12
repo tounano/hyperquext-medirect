@@ -17,7 +17,7 @@ module.exports = function hyperquextMeDirect(hyperquext) {
 
     getFinalRequestFromHyperquext(req, function (err, finalRequest) {
       getResponseFromClientRequest(finalRequest, function (err, res) {
-        if (res['$redirect'] || res.statusCode != 200) return;
+        if (res['$redirect'] || !res.cheerio) return;
         var $ = res.cheerio;
         var redirectUrl;
         $('meta[http-equiv]').each( function () {
