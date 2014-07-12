@@ -1,6 +1,6 @@
 {
   "name": "hyperquext-medirect",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./hq-metaredirects.js",
   "description": "Follow Meta Refresh redirects on Hyperquext requests.",
   "homepage": "https://github.com/tounano/hyperquext-metaredirects/",
